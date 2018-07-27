@@ -27,7 +27,13 @@ Run
 $ docker run -p 8888:8888 nhtsa-php-api
 ```
 
-PS: You can also use the `Makefile` to run these commands.
+PS: You can also use the `Makefile` to run commands.
+
+## Run tests
+
+`$ cd src`
+
+`$ php phpunit.phar`
 
 ## Author
 Matheus Freire Rabelo

@@ -3,10 +3,13 @@ APP_DIR=/app
 PWD=$(shell pwd)
 
 install:
-	cd src && php composer.phar install
+	cd src && php composer.phar install && cd ..
 
 run:
 	php -S 0.0.0.0:${API_PORT} -t src/public
+
+tests:
+	cd src && php phpunit.phar && cd ..
 
 build-docker:
 	docker build . -t nhtsa-php-api:latest
