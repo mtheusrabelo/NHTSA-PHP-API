@@ -93,6 +93,10 @@ $app->singleton(
 |
 */
 
+$app->routeMiddleware([
+    'ratings' => App\Http\Middleware\RatingsMiddleware::class
+]);
+
 $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
