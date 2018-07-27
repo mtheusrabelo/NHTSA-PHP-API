@@ -5,3 +5,4 @@ docs/
 Homestead.json
 Homestead.yaml
 .env
+*.log
