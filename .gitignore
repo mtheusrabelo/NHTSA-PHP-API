@@ -1,6 +1,5 @@
 node_modules/
 vendor/
-docs/
 .idea/
 Homestead.json
 Homestead.yaml

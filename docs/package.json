@@ -1,0 +1,18 @@
+{
+  "name": "nhtsa-php-doc-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "aglio -i documentation.md -o dist/index.html"
+  },
+  "keywords": [
+    "doc",
+    "gen"
+  ],
+  "author": "Matheus Freire Rabelo",
+  "license": "MIT",
+  "devDependencies": {
+    "aglio": "^2.3.0"
+  }
+}
