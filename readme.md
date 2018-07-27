@@ -1,5 +1,7 @@
 # NHTSA PHP Api
 
+## [API documentation](https://matheusrabelo.github.io/NHTSA-PHP-API/docs/dist/)
+
 ## Usage
 
 Copy `src/.env.example` to `src/.env`, run the install script and then the run script.
