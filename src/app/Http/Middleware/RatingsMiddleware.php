@@ -18,10 +18,10 @@ class RatingsMiddleware
     {
         $response = $next($request);
         $url = $request->fullUrl();
-        $qsList = explode("?", $url)[1];
 
-        if ($qsList)
+        if (count(explode("?", $url)) > 1)
         {
+            $qsList = explode("?", $url)[1];
             if (strpos($qsList, 'withRating=true') !== false)
             {
                 $original = $response->original;
