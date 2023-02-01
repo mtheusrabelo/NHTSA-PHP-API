@@ -36,6 +36,3 @@ PS: You can also use the `Makefile` to run commands.
 `$ cd src`
 
 `$ php phpunit.phar`
-
-## Author
-Matheus Freire Rabelo
