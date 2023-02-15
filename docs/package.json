@@ -10,7 +10,7 @@
     "doc",
     "gen"
   ],
-  "author": "Matheus Freire Rabelo",
+  "author": "Matheus Rabelo",
   "license": "MIT",
   "devDependencies": {
     "aglio": "^2.3.0"
