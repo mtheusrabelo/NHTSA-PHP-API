@@ -1,6 +1,6 @@
 # NHTSA PHP Api
 
-## [API documentation](https://matheusrabelo.github.io/NHTSA-PHP-API/docs/dist/)
+## [API documentation](https://mtheusrabelo.github.io/NHTSA-PHP-API/docs/dist/)
 
 ## Usage
 
